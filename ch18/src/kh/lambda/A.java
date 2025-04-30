@@ -10,6 +10,10 @@ interface D {
 }
 interface B {
 	//public abstract는 자동으로 써줌 
-	// 입력 있고, 리턴 O
+	// 입력 O, 리턴 O
 	int methodB(String a);
+}
+interface C {
+	// 입력 O, 리턴 X 
+	void methodC(int a);
 }
