@@ -16,7 +16,7 @@ public class LambdaMain {
 		D d = (e, f) -> e*f;
 		
 		//부모 추상메소드를 불러주면 -> 자식의 오버라이딩 함수가 작동이 된다.
-		double value = d.methodD(10, 12.14);
+		double value = d.methodD(10, 12.14);	
 		System.out.printf("d.method(10, 12.14) = %.2f\n", value);
 		System.out.println("==========================");
 		// 입력 X, 리턴 O
